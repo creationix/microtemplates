@@ -50,6 +50,6 @@ Also you could execute a template immediately instead of caching the compiled te
 
 ## Refactoring
 
-Now, microtemplates won't crash any more, when there are single quotes inside the template.
-Furthermore newlines won't be flatted any more, so that your client's debugger does
-treat the template as expected.
+Now, microtemplates does not crash any more, when there are single quotes inside the template.
+Furthermore newlines won't be flatted, so that your client's debugger
+treats the template as expected.
