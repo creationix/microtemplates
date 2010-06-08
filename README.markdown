@@ -47,3 +47,9 @@ Also you could execute a template immediately instead of caching the compiled te
     
     var code = fs.readFileSync("users.tmpl");
     var html = tmpl(fs.readFileSync(code), users);
+
+## Refactoring
+
+Now, microtemplates won't crash any more, when there are single quotes inside the template.
+Furthermore newlines won't be flatted any more, so that your client's debugger does
+treat the template as expected.
